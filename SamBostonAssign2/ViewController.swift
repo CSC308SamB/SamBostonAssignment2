@@ -37,7 +37,8 @@ class ViewController: UIViewController {
         let totalBurn = Double(1800) + Double(stepAmount) * Double(0.05) + Double(activeAmount) * 8
         var diffKcal = Double(totalCal) - Double(totalBurn)
         let poundChange = diffKcal / 3500
-        weightGain.text = "The weight change is \(poundChange)."
+        let formattedPound = String(format: "%.2f", poundChange)
+        weightGain.text = "The weight change is \(formattedPound)."
         
         var stepsRequired = 0
         while diffKcal > 0{
