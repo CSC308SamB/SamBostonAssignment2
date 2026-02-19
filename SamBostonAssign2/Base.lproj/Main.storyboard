@@ -142,6 +142,11 @@
                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.cornerRadius" value="YES"/>
                         </userDefinedRuntimeAttributes>
                     </view>
+                    <connections>
+                        <outlet property="blueText" destination="PMj-yn-l5p" id="9bs-9Y-CEc"/>
+                        <outlet property="redText" destination="91n-al-tbU" id="pPt-W2-2xG"/>
+                        <outlet property="treadmill" destination="0v1-4r-WE2" id="X70-1L-zMc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -336,7 +341,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XGN-Z2-4N4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1462" y="-27"/>
+            <point key="canvasLocation" x="1637" y="-27"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="K4d-qo-IPN">
